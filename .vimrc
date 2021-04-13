@@ -209,3 +209,13 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " coc-format
 vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
+
+
+" close branches
+inoremap { {}<Esc>i
+inoremap {<CR> {<CR>}<Esc>O
+inoremap ( ()<Esc>ha
+inoremap [ []<Esc>ha
+inoremap " ""<Esc>ha
+inoremap ' ''<Esc>ha
+inoremap ` ``<Esc>ha
